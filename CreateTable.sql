@@ -6,7 +6,7 @@ CREATE TABLE Cliente (
     tipo_doc VARCHAR(5),
     nro_doc SMALLINT,
     nombre VARCHAR(20),
-    telefono SMALLINT,
+    telefono VARCHAR(20),
     domicilio VARCHAR(30),
     edad SMALLINT,
     id_Cliente_tit SMALLINT,
@@ -14,10 +14,10 @@ CREATE TABLE Cliente (
 );
 
 CREATE TABLE Proveedor (
-    CUIT SMALLINT PRIMARY KEY,
+    CUIT VARCHAR(30) PRIMARY KEY,
     nombre VARCHAR(30),
     domicilio VARCHAR(30),
-    telefono SMALLINT,
+    telefono VARCHAR(15),
     mail VARCHAR(50)
 );
 
@@ -25,7 +25,7 @@ CREATE TABLE Libro(
 	cod_Libro SMALLINT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(50),
     genero VARCHAR(20),
-    CUIT_PROV SMALLINT,
+    CUIT_PROV VARCHAR(30),
     FOREIGN KEY (CUIT_PROV) REFERENCES Proveedor (CUIT)
 );
 

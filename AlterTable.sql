@@ -8,7 +8,7 @@ ALTER TABLE Cliente
 
 ALTER TABLE Cliente
 	DROP COLUMN edad;
-
+    
 ALTER TABLE Cliente
 	ADD COLUMN f_nacimiento DATETIME;
 
