@@ -1,4 +1,4 @@
-# Repositorio de Avance de Base de Datos para Biblioteca 📚📊
+# Base de Datos para Biblioteca 📚📊
 
 Este repositorio contiene el avance de la base de datos desarrollada como parte de la materia específica "Base de Datos" en el marco de la carrera de Tecnincatura en Desarrollo de Aplicaciones Móviles de la UNLaM.
 
